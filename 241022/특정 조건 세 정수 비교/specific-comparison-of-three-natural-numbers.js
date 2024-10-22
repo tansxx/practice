@@ -13,7 +13,7 @@ if (a <= b && a <= c) {
     res1 = 0;
 }
 
-if (a === b === c) {
+if (a == b && b == c) {
     res2 = 1;
 } else {
     res2 = 0;

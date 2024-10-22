@@ -1,17 +1,14 @@
 const fs = require("fs");
 let input = fs.readFileSync(0).toString().trim().split("\n");
-let a_score = Number(input[0].split(" "));
-let b_score = Number(input[1].split(" "));
 
-let a_math = (a_score[0]);
-let a_eng = (a_score[1]);
-let b_math = (b_score[0]);
-let b_eng = (b_score[1]);
+let scoreA = input[0].split(" ");
+let scoreB = input[1].split(" ");
 
-if (a_math > b_math) {
+let a_math = Number(scoreA[0]), a_eng = Number(scoreA[1]);
+let b_math = Number(scoreB[0]), b_eng = Number(scoreB[1]);
+
+if (a_math > b_math || (a_math === b_math && a_eng > b_eng)) {
     console.log("A");
-} else if ((a_math === b_math) && (a_eng > b_eng)) {
-    console.log("A")
 } else {
     console.log("B");
 }

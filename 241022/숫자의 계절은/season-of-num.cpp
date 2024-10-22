@@ -5,7 +5,7 @@ int main() {
     int month;
     cin >> month;
 
-    if (12 >= month || month <= 2) {
+    if (12 =< month || month <= 2) {
         cout << "Winter";
     } else if (month <= 5) {
         cout << "Spring";

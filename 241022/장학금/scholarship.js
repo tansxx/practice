@@ -1,8 +1,8 @@
 const fs = require("fs");
-let input = Number(fs.readFileSync(0).toString().trim().split(" "));
+let input = fs.readFileSync(0).toString().trim().split(" ");
 
-let mid = input[0];
-let fin = input[1];
+let mid = Number(input[0]);
+let fin = Number(input[1]);
 
 if (mid >= 90 && fin >= 95) {
     console.log(100000);

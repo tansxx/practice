@@ -5,7 +5,7 @@ int main() {
     int a;
     cin >> a;
 
-    if (a <= 10 && a <= 20) {
+    if (10 <= a && a <= 20) {
         cout << "yes";
     } else {
         cout << "no";

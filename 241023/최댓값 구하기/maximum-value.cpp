@@ -12,11 +12,9 @@ int main() {
             cout << c;
         }
     } else if (b >= c) {
-        if (b >= a) {
-            cout << b;
-        } else {
-            cout << a;
-        }
+        cout << b;
+    } else {
+        cout << c;
     }
     return 0;
 }

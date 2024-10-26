@@ -10,7 +10,7 @@ int main() {
         if (n % i == 0) {
             sum += i;
         }
-    } if (n = sum) {
+    } if (n == sum) {
         cout << "P";
     } else {
         cout << "N";

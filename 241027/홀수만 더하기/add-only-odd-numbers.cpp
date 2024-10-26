@@ -7,8 +7,10 @@ int main() {
     int sum_val = 0;
 
     for (int i = 1; i <= n; i++) {
-        if (i % 2 == 1 && i % 3 == 0) {
-            sum_val += i;
+        int a;
+        cin >> a;
+        if (a % 2 == 1 && a % 3 == 0) {
+            sum_val += a;
         }
     }
 

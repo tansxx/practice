@@ -13,8 +13,9 @@ int main() {
             sum_val += i;
         }
     }
-
-    avg = (sum_val / count); 
+    cout << fixed;
+    cout.precision(1);
+    avg = ((double)sum_val / count); 
     cout << sum_val << " " << avg;
     return 0;
 }

@@ -14,4 +14,4 @@ for (let i = 0; i < 10; i++) {
     }
 }
 
-console.log(cntA + " " + cntB);
+console.log(cntA, cntB);
